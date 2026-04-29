@@ -49,5 +49,15 @@ nav:
   - Historia: historia.md
   - Källor: kallor.md
   - Index: index-sida.md
+  - English:
+    - english/index.md
+    - Overview: english/oversikt.md
+    - Study Paths: english/studievagar.md
+    - Courses:
+      - english/kurser/index.md
+      - Course A: english/kurser/kurs-a.md
+      - Course B: english/kurser/kurs-b.md
+      - Course C: english/kurser/kurs-c.md
+      - Course D: english/kurser/kurs-d.md
 
 copyright: Copyright &copy; SFI Wiki | Källor från Skolverket och Sveriges Riksdag
