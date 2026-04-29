@@ -1,5 +1,12 @@
 ---
 title: Regelverk och styrdokument för SFI
+tags:
+  - regelverk
+  - lagar
+  - skollagen
+  - förordningar
+  - betyg
+  - skolverket
 ---
 
 # Regelverk och styrdokument för SFI

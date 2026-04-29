@@ -1,5 +1,11 @@
 ---
 title: Källor och referenser
+tags:
+  - källor
+  - skolverket
+  - riksdagen
+  - lagar
+  - regelverk
 ---
 
 # Källor och referenser

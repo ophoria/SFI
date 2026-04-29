@@ -129,3 +129,92 @@
   border-left-color: #ffe921;
   color: #000000;
 }
+
+/* Wiki-style improvements */
+
+/* Breadcrumb navigation */
+.md-path {
+  background-color: rgba(0, 64, 113, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Tags styling */
+.md-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.md-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: rgba(0, 64, 113, 0.1);
+  color: #0066b3;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(0, 64, 113, 0.2);
+}
+
+.md-tag:hover {
+  background-color: #004071;
+  color: white;
+  text-decoration: none;
+  border-color: #004071;
+}
+
+/* Wiki sidebar improvements */
+.md-nav__title {
+  font-weight: bold;
+  color: #004071;
+}
+
+.md-nav__link--active {
+  font-weight: bold;
+  color: #004071;
+}
+
+/* Section index styling */
+.md-section-index h2 {
+  color: #004071;
+  border-bottom: 2px solid #004071;
+  padding-bottom: 0.5rem;
+}
+
+/* Related pages / See also box */
+.seealso {
+  background-color: rgba(0, 64, 113, 0.05);
+  border-left: 4px solid #004071;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.seealso-title {
+  font-weight: bold;
+  color: #004071;
+  margin-bottom: 0.5rem;
+}
+
+/* Last updated timestamp */
+.md-source-file {
+  color: #666;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* Print improvements */
+@media print {
+  .md-header,
+  .md-tabs,
+  .md-footer {
+    display: none;
+  }
+}

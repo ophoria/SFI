@@ -25,15 +25,21 @@ theme:
         name: Byt till ljust läge
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.path
     - navigation.indexes
+    - navigation.top
     - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     - content.action.edit
+    - content.action.view
+    - content.tooltips
 
 extra_css:
   - stylesheets/extra.css
@@ -41,21 +47,35 @@ extra_css:
 plugins:
   - search:
       lang: sv
-  - awesome-pages
+      separator: '[\s\-,:!=\[\]()"/]+|(?![\s\-,:!=\[\]()"/]+)|(?=[\s\-,:!=\[\]()"/]+)'
+  - tags:
+      tags_file: taggar.md
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+      enable_creation_date: true
+  - minify:
+      minify_html: true
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - admonition
   - pymdownx.details
   - pymdownx.critic
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - attr_list
   - md_in_html
   - def_list
@@ -63,10 +83,25 @@ markdown_extensions:
       generic: true
   - toc:
       permalink: true
+      toc_depth: 3
+  - meta
+  - abbr
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ophoria/SFI
+  analytics:
+    feedback:
+      title: Var denna sida till hjälp?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Denna sida var till hjälp
+          data: 1
+          note: Tack för din feedback!
+        - icon: material/emoticon-sad-outline
+          name: Denna sida kan förbättras
+          data: 0
+          note: Tack för din feedback! Hjälp oss att förbättra.
 
-copyright: Copyright &copy; SFI Wiki
+copyright: Copyright &copy; SFI Wiki | Källor från Skolverket och Sveriges Riksdag

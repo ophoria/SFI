@@ -1,5 +1,11 @@
 ---
 title: Översikt - Vad är SFI?
+tags:
+  - sfi
+  - översikt
+  - rättigheter
+  - kommun
+  - anmälan
 ---
 
 # Översikt: Vad är SFI?

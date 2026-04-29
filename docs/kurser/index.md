@@ -1,5 +1,12 @@
 ---
 title: SFI-kurser
+tags:
+  - kurser
+  - kurs-a
+  - kurs-b
+  - kurs-c
+  - kurs-d
+  - nivåer
 ---
 
 # SFI-kurser

@@ -1,5 +1,11 @@
 ---
 title: Kurs A inom SFI
+tags:
+  - kurs-a
+  - studieväg-1
+  - analfabeter
+  - nybörjare
+  - grundnivå
 ---
 
 # Kurs A inom SFI

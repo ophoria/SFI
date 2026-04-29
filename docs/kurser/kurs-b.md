@@ -1,5 +1,10 @@
 ---
 title: Kurs B inom SFI
+tags:
+  - kurs-b
+  - studieväg-1
+  - studieväg-2
+  - fortsättning
 ---
 
 # Kurs B inom SFI

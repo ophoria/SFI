@@ -1,5 +1,12 @@
 ---
 title: Betyg och nationella prov inom SFI
+tags:
+  - betyg
+  - prov
+  - nationella-prov
+  - bedömning
+  - g
+  - ig
 ---
 
 # Betyg och nationella prov inom SFI

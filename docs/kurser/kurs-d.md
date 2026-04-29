@@ -1,5 +1,10 @@
 ---
 title: Kurs D inom SFI
+tags:
+  - kurs-d
+  - studieväg-3
+  - avancerad
+  - gymnasial
 ---
 
 # Kurs D inom SFI

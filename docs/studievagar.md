@@ -1,5 +1,12 @@
 ---
 title: Studievägar inom SFI
+tags:
+  - studieväg
+  - studieväg-1
+  - studieväg-2
+  - studieväg-3
+  - analfabeter
+  - högutbildade
 ---
 
 # Studievägar inom SFI

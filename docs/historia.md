@@ -1,5 +1,11 @@
 ---
 title: SFI:s historia
+tags:
+  - historia
+  - 1965
+  - sfi-bonus
+  - utveckling
+  - statistik
 ---
 
 # SFI:s historia

@@ -1,3 +1,6 @@
 mkdocs
 mkdocs-material
 mkdocs-awesome-pages-plugin
+mkdocs-tags-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin

@@ -1,5 +1,10 @@
 ---
 title: Kurs C inom SFI
+tags:
+  - kurs-c
+  - studieväg-2
+  - studieväg-3
+  - medelnivå
 ---
 
 # Kurs C inom SFI

@@ -1,5 +1,11 @@
 ---
 title: SFI - Svenska för invandrare
+tags:
+  - sfi
+  - svenska
+  - invandrare
+  - komvux
+  - start
 ---
 
 # SFI - Svenska för invandrare
