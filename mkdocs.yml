@@ -100,29 +100,3 @@ extra:
           note: Tack för din feedback! Hjälp oss att förbättra.
 
 copyright: Copyright &copy; SFI Wiki | Källor från Skolverket och Sveriges Riksdag
-
-nav:
-  - Hem: index.md
-  - "Översikt": oversikt.md
-  - Studievägar: studievagar.md
-  - Kurser:
-    - kurser/index.md
-    - Kurs A: kurser/kurs-a.md
-    - Kurs B: kurser/kurs-b.md
-    - Kurs C: kurser/kurs-c.md
-    - Kurs D: kurser/kurs-d.md
-  - Regelverk: regelverk.md
-  - Historia: historia.md
-  - "Betyg & Prov": betyg-och-prov.md
-  - Källor: kallor.md
-  - Navigering: navigering.md
-  - English:
-    - en/index.md
-    - Overview: en/oversikt.md
-    - "Study Paths": en/studievagar.md
-    - Courses:
-      - en/kurser/index.md
-      - "Course A": en/kurser/kurs-a.md
-      - "Course B": en/kurser/kurs-b.md
-      - "Course C": en/kurser/kurs-c.md
-      - "Course D": en/kurser/kurs-d.md
