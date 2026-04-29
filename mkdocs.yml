@@ -56,11 +56,7 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -84,7 +80,7 @@ extra:
     - name: Svenska
       link: ./
       lang: sv
-    - name: English  
+    - name: English
       link: ./en/
       lang: en
   social:
@@ -107,7 +103,7 @@ copyright: Copyright &copy; SFI Wiki | Källor från Skolverket och Sveriges Rik
 
 nav:
   - Hem: index.md
-  - Översikt: oversikt.md
+  - "Översikt": oversikt.md
   - Studievägar: studievagar.md
   - Kurser:
     - kurser/index.md
@@ -117,16 +113,16 @@ nav:
     - Kurs D: kurser/kurs-d.md
   - Regelverk: regelverk.md
   - Historia: historia.md
-  - Betyg & Prov: betyg-och-prov.md
+  - "Betyg & Prov": betyg-och-prov.md
   - Källor: kallor.md
   - Navigering: navigering.md
   - English:
     - en/index.md
     - Overview: en/oversikt.md
-    - Study Paths: en/studievagar.md
+    - "Study Paths": en/studievagar.md
     - Courses:
       - en/kurser/index.md
-      - Course A: en/kurser/kurs-a.md
-      - Course B: en/kurser/kurs-b.md
-      - Course C: en/kurser/kurs-c.md
-      - Course D: en/kurser/kurs-d.md
+      - "Course A": en/kurser/kurs-a.md
+      - "Course B": en/kurser/kurs-b.md
+      - "Course C": en/kurser/kurs-c.md
+      - "Course D": en/kurser/kurs-d.md
