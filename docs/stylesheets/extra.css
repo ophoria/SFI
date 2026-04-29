@@ -1,0 +1,131 @@
+:root {
+  /* Trelleborg Colors */
+  --trelleborg-blue: #004071;
+  --trelleborg-blue-light: #0066b3;
+  --trelleborg-yellow: #ffe921;
+  --trelleborg-red: #d92f2f;
+  
+  /* Material Primary Colors */
+  --md-primary-fg-color: #004071;
+  --md-primary-fg-color--light: #0066b3;
+  --md-primary-fg-color--dark: #002b4b;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #f5f5f5;
+  
+  /* Material Accent Colors */
+  --md-accent-fg-color: #004071;
+  --md-accent-fg-color--transparent: rgba(0, 64, 113, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #f5f5f5;
+  
+  /* Custom accent for links */
+  --md-typeset-a-color: #0066b3;
+}
+
+/* Header styling */
+.md-header {
+  background-color: #004071 !important;
+}
+
+.md-header__button.md-logo {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.md-header__button.md-logo img {
+  height: 32px;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: #004071 !important;
+}
+
+.md-tabs__link {
+  color: #ffffff !important;
+}
+
+.md-tabs__link:hover {
+  color: #ffe921 !important;
+}
+
+.md-tabs__link--active {
+  color: #ffe921 !important;
+  font-weight: bold;
+}
+
+/* Search highlight */
+.md-search-result__link:hover {
+  background-color: rgba(0, 64, 113, 0.1);
+}
+
+/* Admonitions with Trelleborg colors */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #004071;
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset .admonition.info > summary,
+.md-typeset details.info > .admonition-title,
+.md-typeset details.info > summary {
+  background-color: rgba(0, 64, 113, 0.1);
+  border-left-color: #004071;
+}
+
+/* Table headers */
+.md-typeset table th {
+  background-color: #004071;
+  color: #ffffff;
+}
+
+/* Links */
+.md-typeset a {
+  color: #0066b3;
+}
+
+.md-typeset a:hover {
+  color: #004071;
+}
+
+/* Buttons */
+.md-typeset .md-button {
+  background-color: #004071;
+  color: #ffffff;
+}
+
+.md-typeset .md-button:hover {
+  background-color: #0066b3;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #004071 !important;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #004071;
+  --md-typeset-a-color: #4dabf7;
+}
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #004071 !important;
+}
+
+/* Custom accent for warnings (Trelleborg yellow) */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-left-color: #ffe921;
+}
+
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset .admonition.warning > summary,
+.md-typeset details.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  background-color: rgba(255, 233, 33, 0.2);
+  border-left-color: #ffe921;
+  color: #000000;
+}

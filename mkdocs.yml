@@ -1,23 +1,25 @@
 site_name: SFI - Svenska för invandrare
 site_description: Kunskapsbas om SFI - struktur, kurser, regelverk och historia
 site_author: SFI Wiki
-site_url: https://yourusername.github.io/SFI/
+site_url: https://ophoria.github.io/SFI/
 
 theme:
   name: material
   language: sv
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Byt till mörkt läge
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Byt till ljust läge
@@ -32,6 +34,9 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search:
@@ -62,6 +67,6 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/SFI
+      link: https://github.com/ophoria/SFI
 
 copyright: Copyright &copy; SFI Wiki
