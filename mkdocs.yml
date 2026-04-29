@@ -48,6 +48,8 @@ plugins:
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
       languages:
         - locale: sv
           default: true
@@ -69,10 +71,7 @@ plugins:
             Navigering: Navigation
             Innehållsförteckning: Table of Contents
             Taggar: Tags
-  - search:
-      lang:
-        - sv
-        - en
+  - search
   - minify:
       minify_html: true
 
