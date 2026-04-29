@@ -45,15 +45,34 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: sv
+          default: true
+          name: Svenska
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: SFI - Swedish for Immigrants
+          site_description: Knowledge base about SFI - structure, courses, regulations and history
+          nav_translations:
+            Översikt: Overview
+            Studievägar: Study Paths
+            Kurser: Courses
+            Regelverk: Regulations
+            Historia: History
+            Betyg & Prov: Grades & Exams
+            Källor: Sources
+            Navigering: Navigation
+            Innehållsförteckning: Table of Contents
+            Taggar: Tags
   - search:
-      lang: sv
-      separator: '[\s\-,:!=\[\]()"/]+|(?![\s\-,:!=\[\]()"/]+)|(?=[\s\-,:!=\[\]()"/]+)'
-  - tags:
-      tags_file: taggar.md
-  - git-revision-date-localized:
-      type: date
-      fallback_to_build_date: true
-      enable_creation_date: true
+      lang:
+        - sv
+        - en
   - minify:
       minify_html: true
 
