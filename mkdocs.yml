@@ -45,32 +45,6 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - i18n:
-      docs_structure: suffix
-      fallback_to_default: true
-      reconfigure_material: true
-      reconfigure_search: true
-      languages:
-        - locale: sv
-          default: true
-          name: Svenska
-          build: true
-        - locale: en
-          name: English
-          build: true
-          site_name: SFI - Swedish for Immigrants
-          site_description: Knowledge base about SFI - structure, courses, regulations and history
-          nav_translations:
-            Översikt: Overview
-            Studievägar: Study Paths
-            Kurser: Courses
-            Regelverk: Regulations
-            Historia: History
-            Betyg & Prov: Grades & Exams
-            Källor: Sources
-            Navigering: Navigation
-            Innehållsförteckning: Table of Contents
-            Taggar: Tags
   - search
   - minify:
       minify_html: true
@@ -106,6 +80,13 @@ markdown_extensions:
   - abbr
 
 extra:
+  alternate:
+    - name: Svenska
+      link: /
+      lang: sv
+    - name: English
+      link: /en/
+      lang: en
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ophoria/SFI
