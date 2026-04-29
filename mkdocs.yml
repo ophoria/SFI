@@ -1,10 +1,11 @@
-site_name: SFI Wiki
-site_description: Structured Knowledge Base
-site_author: SFI
+site_name: SFI - Svenska för invandrare
+site_description: Kunskapsbas om SFI - struktur, kurser, regelverk och historia
+site_author: SFI Wiki
 site_url: https://yourusername.github.io/SFI/
 
 theme:
   name: material
+  language: sv
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -12,14 +13,14 @@ theme:
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Byt till mörkt läge
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Byt till ljust läge
   features:
     - navigation.tabs
     - navigation.sections
@@ -33,7 +34,8 @@ theme:
     - content.action.edit
 
 plugins:
-  - search
+  - search:
+      lang: sv
   - awesome-pages
 
 markdown_extensions:
@@ -62,4 +64,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/yourusername/SFI
 
-copyright: Copyright &copy; SFI
+copyright: Copyright &copy; SFI Wiki
