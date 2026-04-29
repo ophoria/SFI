@@ -9,9 +9,7 @@ tags:
 
 # Taggar och ämnen
 
-Här kan du hitta sidor efter ämne. Klicka på en tagg för att se alla relaterade sidor.
-
-## [TRELLab]}{% include "partials/tags.html" %}
+Här kan du hitta sidor efter ämne. Använd sökfunktionen för att hitta specifikt innehåll.
 
 ## Vanliga ämnen
 
