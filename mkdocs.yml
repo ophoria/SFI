@@ -82,10 +82,10 @@ markdown_extensions:
 extra:
   alternate:
     - name: Svenska
-      link: /
+      link: ./
       lang: sv
-    - name: English
-      link: /en/
+    - name: English  
+      link: ./en/
       lang: en
   social:
     - icon: fontawesome/brands/github
@@ -119,4 +119,14 @@ nav:
   - Historia: historia.md
   - Betyg & Prov: betyg-och-prov.md
   - Källor: kallor.md
-  - English: en/index.md
+  - Navigering: navigering.md
+  - English:
+    - en/index.md
+    - Overview: en/oversikt.md
+    - Study Paths: en/studievagar.md
+    - Courses:
+      - en/kurser/index.md
+      - Course A: en/kurser/kurs-a.md
+      - Course B: en/kurser/kurs-b.md
+      - Course C: en/kurser/kurs-c.md
+      - Course D: en/kurser/kurs-d.md
